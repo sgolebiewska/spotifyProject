@@ -97,6 +97,9 @@ def print_artist_albums(token,artist_name):
 
     input("Ready to go ahead? Click enter..")
 
+#def music_analysis(spotify):
+
+
 def welcome_message():
     """Welcome message for user"""
 
@@ -110,7 +113,8 @@ def main_menu(token):
     print("Basic features:")
     print("\t0. Quit")
     print("\t1. Find most popular songs from given artist")
-    print("\t2. Find given artist's albums\n")
+    print("\t2. Find given artist's albums")
+    print("\t3. Your spotify day - what happened on your birthday day?\n") # TO DO
     print("Advanced features:")
     print("\t3. Get artist recommendation.") # TO DO
     print("\t4. Get tracks recommendation.") # TO DO
